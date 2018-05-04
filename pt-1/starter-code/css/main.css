@@ -3,7 +3,6 @@
 }
 
 body {
-  font-family: 'Noto Sans', sans-serif;
   background-color: #DDDDDD;
 }
 
@@ -33,10 +32,11 @@ body {
 
 a {
   text-decoration: none;
-  text-weight: strong;
+  font-weight: 900;
 }
 
 h1, h2, h3, a {
+  font-family: 'Noto Sans', sans-serif;
   text-transform: uppercase;
   font-weight: 900;
   color: #505866;
@@ -46,7 +46,6 @@ h1 {
   display: block;
   text-align: center;
   letter-spacing: 5px;
-  border: 1px solid hotpink;
 }
 
 header {
