@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #DDDDDD;
+}
+
+.container {
+  width: 80%;
+  background-color: #FFFFFF;
+  display: block;
+  margin: 0 auto;
+  padding: 6%;
+}
+
+.headerNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navLinks {
+  margin: 0 15px;
+}
+a {
+  text-decoration: none;
+  text-weight: strong;
+}
+
+h1, h2, h3, a {
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: #767575;
+}
+
+h1 {
+  display: block;
+  text-align: center;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: #767575;
+}
+
+img {
+  width: 100%;
+}
