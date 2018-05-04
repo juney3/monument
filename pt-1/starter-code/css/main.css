@@ -21,9 +21,16 @@ body {
   justify-content: center;
 }
 
-.navLinks {
-  margin: 0 15px;
+.headerNav a {
+  margin: 0 5px;
+  color: #5e818e;
+  font-size: .75em;
 }
+
+.navLinks {
+  margin: 0 15px 20px;
+}
+
 a {
   text-decoration: none;
   text-weight: strong;
@@ -31,20 +38,53 @@ a {
 
 h1, h2, h3, a {
   text-transform: uppercase;
-  font-weight: bolder;
-  color: #767575;
+  font-weight: 900;
+  color: #505866;
 }
 
 h1 {
   display: block;
   text-align: center;
+  letter-spacing: 5px;
+  border: 1px solid hotpink;
+}
+
+header {
+  margin-bottom: 40px;
 }
 
 p {
   font-family: 'Roboto', sans-serif;
   color: #767575;
+  font-size: .9em;
+  line-height: 1.5;
 }
 
 img {
   width: 100%;
+}
+
+.recent a {
+  color: #5e818e;
+  text-transform: initial;
+}
+
+footer {
+  background-color: #B9EEF7;
+}
+
+.socialLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.socialLinks a {
+  margin: 0 5px;
+}
+
+.copy {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
