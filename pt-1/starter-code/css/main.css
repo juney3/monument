@@ -69,6 +69,16 @@ header {
   align-items: center;
 }
 
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+main {
+  width: 73%;
+}
+
 p {
   font-family: 'Roboto', sans-serif;
   color: #767575;
@@ -95,6 +105,10 @@ img {
   top: 50px;
   height: 20px;
   background-color: hotpink;
+}
+
+aside {
+  width: 23%;
 }
 
 .about img {
