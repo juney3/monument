@@ -95,6 +95,16 @@ img {
   margin-bottom: 50px;
 }
 
+#commentForm
+
+input {
+  font-size: .7em;
+  color: #515151;
+  border: 1px solid #515151;
+  height: 3em;
+  margin: 0 2em;
+}
+
 aside {
   width: 30%;
   margin: 30px 0;
@@ -148,27 +158,19 @@ footer {
   margin: 0 .7em;
 }
 
-form {
+#mailList {
   margin: 20px 0;
   display: flex;
   justify-content: center;
 }
 
-input {
-  font-size: .7em;
-  color: #515151;
-  border: 1px solid #515151;
-  height: 3em;
-  margin: 0 2em;
-}
-
-input#email {
+input#mailListEmail {
   border: none;
   width: 33%;
   text-align: center;
 }
 
-input#submit {
+input#mailListSubmit {
   border: 1px solid #515151;
   width: 16.67%;
   background-color: inherit;
