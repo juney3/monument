@@ -165,6 +165,7 @@ input#email {
 input#submit {
   border: 1px solid #000000;
   width: 16.67%;
+  background-color: inherit;
 }
 
 .copyright {
