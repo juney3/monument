@@ -1,0 +1,194 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #FFFFFF;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, a, input {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #505866;
+}
+
+.headerNav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 4em;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.headerLinks a {
+    color: #C7C7C7;
+  font-size: .8em;
+  margin: 0 2em;
+}
+
+h1 {
+  display: block;
+  text-align: center;
+  letter-spacing: .4em;
+  color: #FFFFFF;
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+.hero {
+  height: 250px;
+  width: 100%;
+  margin-top: 40px;
+  background-image: url("../images/blog_header_bg.jpg");
+  background-size: 115% 115%;
+  background-position: center bottom;
+  background-color: #5e818e;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+main {
+  width: 63%;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  color: #767575;
+  font-size: .9em;
+  line-height: 1.618;
+}
+
+img {
+  width: 100%;
+}
+
+.blogPost {
+  margin-bottom: 50px;
+}
+
+aside {
+  width: 30%;
+  margin: 30px 0;
+}
+
+aside section, aside img {
+  margin: 30px 0;
+}
+
+.recent ul {
+  padding-left: .75em;
+  margin-left: .75em;
+}
+
+.recent a {
+  color: #5e818e;
+  text-transform: initial;
+  font-size: .9em;
+}
+
+footer {
+  margin-top: 50px;
+  background-color: #B9EEF7;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.socialLinks {
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialLinks a {
+  margin: 0 5px;
+}
+
+.socialLinks svg {
+  margin: 0 .7em;
+}
+
+form {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  font-size: .7em;
+  color: #515151;
+  border: 1px solid #515151;
+  height: 3em;
+  margin: 0 2em;
+}
+
+input#email {
+  border: none;
+  width: 33%;
+  text-align: center;
+}
+
+input#submit {
+  border: 1px solid #515151;
+  width: 16.67%;
+  background-color: inherit;
+}
+
+input#submit:hover {
+  background-color: #515151;
+  color: #FFFFFF;
+}
+
+.copyright {
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+  padding-top: 10px;
+  border-top: 2px solid #6D6D6D;
+}
+
+.copy {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
