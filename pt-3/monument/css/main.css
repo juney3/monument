@@ -2,16 +2,18 @@
   box-sizing: border-box;
 }
 
-.container {
-  background-color: #FFFFFF;
-  display: block;
+.contentForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 a {
   text-decoration: none;
 }
 
-h1, h2, h3, a, input {
+h1, h2, h3, a, input, textarea {
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   text-transform: uppercase;
@@ -57,7 +59,7 @@ header {
 .hero {
   height: 250px;
   width: 100%;
-  margin-top: 40px;
+  margin-top: 70px;
   background-image: url("../images/blog_header_bg.jpg");
   background-size: 115% 115%;
   background-position: center bottom;
@@ -69,7 +71,7 @@ header {
 }
 
 .content {
-  width: 85%;
+  width: 80%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -95,14 +97,12 @@ img {
   margin-bottom: 50px;
 }
 
-#commentForm
-
-input {
+input, textarea {
   font-size: .7em;
   color: #515151;
   border: 1px solid #515151;
   height: 3em;
-  margin: 0 2em;
+  margin: 0;
 }
 
 aside {
@@ -123,6 +123,53 @@ aside section, aside img {
   color: #5e818e;
   text-transform: initial;
   font-size: .9em;
+}
+
+#commentForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+form#comment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+
+.commentRow1, .commentRow2, .commentRow3 {
+  width: 100%;
+  margin: .2em 0;
+}
+
+.commentRow2 {
+  height: 8em;
+}
+input#commentName, input#commentEmail {
+  width: 49%;
+}
+
+textarea#commentMessage, input#commentSubmit {
+  width: 100%;
+}
+
+textarea#commentMessage {
+  height: 100%;
+  padding-top: 1em;
+}
+
+input#commentName, input#commentEmail, textarea#commentMessage {
+  padding-left: 1em;
+}
+
+.commentRow1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 footer {
@@ -164,19 +211,26 @@ footer {
   justify-content: center;
 }
 
+.mailListForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+}
+
 input#mailListEmail {
   border: none;
-  width: 33%;
+  width: 63%;
   text-align: center;
 }
 
 input#mailListSubmit {
   border: 1px solid #515151;
-  width: 16.67%;
+  width: 30%;
   background-color: inherit;
 }
 
-input#submit:hover {
+input#mailListSubmit:hover {
   background-color: #515151;
   color: #FFFFFF;
 }
@@ -187,9 +241,6 @@ input#submit:hover {
   margin-top: 30px;
   padding-top: 10px;
   border-top: 2px solid #6D6D6D;
-}
-
-.copy {
   display: flex;
   flex-direction: row;
   justify-content: center;
