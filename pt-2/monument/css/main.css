@@ -16,11 +16,12 @@
 .headerNav a {
   color: #5e818e;
   font-size: .8em;
+  margin-top: 20px;
 }
 
 .navLinks {
   margin: 0 15px 20px;
-  width: 100%;
+  width: 75%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -31,7 +32,7 @@ a {
   font-weight: 900;
 }
 
-h1, h2, h3, a {
+h1, h2, h3, a, input {
   font-family: 'Noto Sans', sans-serif;
   text-transform: uppercase;
   font-weight: 900;
@@ -41,7 +42,7 @@ h1, h2, h3, a {
 h1 {
   display: block;
   text-align: center;
-  letter-spacing: 5px;
+  letter-spacing: .4em;
   color: #FFFFFF;
 }
 
@@ -112,7 +113,7 @@ aside section, aside img {
 footer {
   margin-top: 50px;
   background-color: #B9EEF7;
-  height: 150px;
+  height: 250px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -125,8 +126,9 @@ footer {
   flex-direction: column;
   justify-content: space-between;
 }
+
 .socialLinks {
-  height: 100px;
+  height: 70px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -138,12 +140,38 @@ footer {
 }
 
 .socialLinks svg {
-  margin: 0 10px;
+  margin: 0 .7em;
+}
+
+form {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  font-size: .7em;
+  border: 1px solid #000000;
+  height: 3em;
+  margin: 0 2em;
+}
+
+input#email {
+  border: none;
+  width: 33%;
+  text-align: center;
+}
+
+input#submit {
+  border: 1px solid #000000;
+  width: 16.67%;
 }
 
 .copyright {
   width: 100%;
   height: 50px;
+  margin-top: 30px;
+  padding-top: 10px;
   border-top: 2px solid #6D6D6D;
 }
 
