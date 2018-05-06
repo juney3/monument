@@ -316,7 +316,7 @@ input#mailListSubmit:hover, input#mailListSubmit:focus, input#commentSubmit:hove
 
   .mobileNav svg {
     color: #FFFFFF;
-    margin-left: 1em;
+    margin: 1em 0 0 1em;
   }
 
   .hero {
