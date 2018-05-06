@@ -270,7 +270,7 @@ input#mailListSubmit:hover, input#mailListSubmit:focus, input#commentSubmit:hove
   justify-content: center;
 }
 
-/* Mediq query for tablet screens */
+/* Media query for tablet screens */
 @media screen and (max-width: 775px) {
   aside {
     display: none;
