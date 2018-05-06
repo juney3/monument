@@ -13,10 +13,6 @@ a {
   text-decoration: none;
 }
 
-header {
-  margin-bottom: 40px;
-}
-
 h1, h2, h3, a, input, textarea {
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
@@ -24,14 +20,19 @@ h1, h2, h3, a, input, textarea {
   color: #505866;
 }
 
-.navbar {
-  display: flex;
+p {
+  font-family: 'Lato', sans-serif;
+  color: #767575;
+  font-size: .9em;
+  line-height: 1.618;
 }
 
-.mobileNav {
-  display: none;
+/* Header section */
+header {
+  margin-bottom: 40px;
 }
 
+/* Larger screen and tablet navigation styles */
 .navBar {
   position: fixed;
   width: 100%;
@@ -57,6 +58,7 @@ h1, h2, h3, a, input, textarea {
   margin: 0 2em;
 }
 
+/* Hero styles*/
 .hero {
   height: 20em;
   width: 100%;
@@ -72,12 +74,19 @@ h1, h2, h3, a, input, textarea {
   align-items: center;
 }
 
+/* Mobile navigation section*/
+.mobileNav {
+  display: none;
+}
+
+/* First-level header styles*/
 h1 {
   letter-spacing: .4em;
   color: #FFFFFF;
   margin: 0;
 }
 
+/* Main page content styles */
 .content {
   width: 80%;
   display: flex;
@@ -90,27 +99,12 @@ main {
   width: 63%;
 }
 
-p {
-  font-family: 'Lato', sans-serif;
-  color: #767575;
-  font-size: .9em;
-  line-height: 1.618;
-}
-
-img {
+main img {
   width: 100%;
 }
 
 .blogPost {
   margin-bottom: 3em;
-}
-
-input, textarea {
-  font-size: .7em;
-  color: #515151;
-  border: 1px solid #515151;
-  height: 3em;
-  margin: 0;
 }
 
 aside {
@@ -133,6 +127,16 @@ aside section, aside img {
   font-size: .9em;
 }
 
+/* General form styles */
+input, textarea {
+  font-size: .7em;
+  color: #515151;
+  border: 1px solid #515151;
+  height: 3em;
+  margin: 0;
+}
+
+/* Comment form styles */
 #commentForm {
   display: flex;
   flex-direction: row;
@@ -184,6 +188,7 @@ input#commentSubmit {
   justify-content: space-between;
 }
 
+/* Footer styles */
 footer {
   background-color: #B9EEF7;
   margin-top: 3em;
@@ -202,6 +207,7 @@ footer {
   justify-content: space-around;
 }
 
+/* Social media link styles */
 .socialLinks {
   display: flex;
   flex-direction: row;
@@ -218,6 +224,7 @@ footer {
   margin: 0 .7em;
 }
 
+/*Email list signup styles*/
 form#listSignUp {
   margin: 1.25em 0 0;
   display: flex;
@@ -251,6 +258,7 @@ input#mailListSubmit:hover, input#mailListSubmit:focus, input#commentSubmit:hove
   box-shadow: 0 0 10px #BDC3C7;
 }
 
+/* Copyright statement styles */
 .copyright {
   width: 100%;
   height: 4em;
@@ -262,6 +270,7 @@ input#mailListSubmit:hover, input#mailListSubmit:focus, input#commentSubmit:hove
   justify-content: center;
 }
 
+/* Mediq query for tablet screens */
 @media screen and (max-width: 775px) {
   aside {
     display: none;
@@ -305,6 +314,7 @@ input#mailListSubmit:hover, input#mailListSubmit:focus, input#commentSubmit:hove
   }
 }
 
+/* Media query for mobile screens */
 @media screen and (max-width: 560px) {
   .navBar, aside {
     display: none;

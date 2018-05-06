@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Import CSS -->
     <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
 
+    <!-- Set viewport size -->
     <meta name = "viewport" content = "width = device-width, initial-scale = 1" />
+
     <meta charset="utf-8">
 
+    <!-- Import Font Awesome icons -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.12/js/all.js" integrity="sha384-Voup2lBiiyZYkRto2XWqbzxHXwzcm4A5RfdfG6466bu5LqjwwrjXCMBQBLMWh7qR" crossorigin="anonymous"></script>
 
+    <!-- Import Google Web Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,900" rel="stylesheet">
 
@@ -17,7 +22,10 @@
 
   <body>
     <div class = "container">
+
+      <!-- Header content -->
       <header>
+        <!-- Navigation for larger screens and tablets -->
         <nav>
           <div class = "navBar">
             <div class = "headerLinks">
@@ -28,7 +36,10 @@
             </div>
           </div>
         </nav>
+
+        <!-- Hero styles -->
         <div class = "hero">
+          <!-- Mobile navigation styles -->
           <div class = "mobileNav">
             <i class = "fas fa-bars fa-lg"></i>
           </div>
@@ -38,8 +49,10 @@
         </div>
       </header>
 
+      <!-- Blog page content -->
       <div class = "contentForm">
         <div class = "content">
+
           <main>
             <section class = "blogPost">
               <h3>4/23/2018</h3>
@@ -54,12 +67,15 @@
           </main>
 
           <aside>
+            <!-- About Monument -->
             <section class = "about">
               <h3>About us</h3>
               <p>There are no mistakes. You can fix anything that happens. You are only limited by your imagination. Any little thing can be your friend if you let it be. Nice little fluffy clouds laying around in the sky being lazy. Don't be afraid to make these big decisions. Once you start, they sort of just make themselves. </p>
               <p>Automatically, all of these beautiful, beautiful things will happen. You're the greatest thing that has ever been or ever will be. You're special. You're so very special. There is no right or wrong - as long as it makes you happy and doesn't hurt anyone.</p>
               <img src = "images/about.jpg" alt = "Monument staff at a campfire" />
             </section>
+
+            <!-- List of recent issues -->
             <section class = "recent">
               <h3>Recent issues</h3>
                 <ul>
@@ -74,6 +90,7 @@
           </aside>
         </div>
 
+        <!-- Comment form content -->
         <div id = "commentForm">
           <form action = "/path" method = "POST" id = "comment">
            <h3>Leave a comment</h3>
@@ -104,12 +121,15 @@
               <i class = "fab fa-instagram fa-lg"></i>
             </a>
           </div>
+
+          <!-- Email list signup form -->
           <form action = "/page" method = "POST" id = "listSignUp">
             <div class = "mailListForm">
               <input type = "email" id = "mailListEmail" name = "mailListEmail" placeholder = "Email address" />
               <input type = "submit" id = "mailListSubmit" name = "mailListSubmit" value = "Keep in touch" />
             </div>
           </form>
+          
           <div class = "copyright">
             <p>&copy; 2018 June Yoshii</p>
           </div>
